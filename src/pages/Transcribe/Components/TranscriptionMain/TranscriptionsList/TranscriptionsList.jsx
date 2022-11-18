@@ -18,7 +18,8 @@ function TranscriptionsList() {
               <p>{list.text}</p>
             </div>
           )
-      })}
+        })
+        }
       </div>
     </div>
   );

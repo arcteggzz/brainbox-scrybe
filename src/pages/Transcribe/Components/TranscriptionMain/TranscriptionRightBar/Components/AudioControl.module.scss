@@ -43,8 +43,18 @@
     .RewindButton,
     .PlayButton,
     .ForwardButton {
-        cursor: pointer
+        cursor: pointer;
+        transition: all 150ms ease-in;
+
     }
+}
+
+.RewindButton:hover,
+.PlayButton:hover,
+.ForwardButton:hover {
+    background-color: #E6F0FF;
+    border-radius: 4PX;
+    transform: scale(1.25);
 }
 
 .AudioTimer {
