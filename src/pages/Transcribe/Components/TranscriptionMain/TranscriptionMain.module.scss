@@ -1,0 +1,11 @@
+@function pix-rem($value, $suffix: rem) {
+    $calculate: calc($value/16);
+    @return #{$calculate}#{$suffix};
+}
+
+.TranscriptionMain {
+    display: flex;
+    justify-content: space-between;
+    padding: pix-rem(40);
+    column-gap: pix-rem(40);
+}

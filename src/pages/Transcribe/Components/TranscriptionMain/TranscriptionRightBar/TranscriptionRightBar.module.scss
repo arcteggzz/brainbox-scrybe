@@ -1,0 +1,11 @@
+@function pix-rem($value, $suffix: rem) {
+    $calculate: calc($value/16);
+    @return #{$calculate}#{$suffix};
+}
+
+.TranscriptionRightBar {
+    width: 320px;
+    background-color: green;
+    height: 100vh;
+    box-shadow: 0 8px 6px -6px rgb(0 0 0 / 0.07);
+}
