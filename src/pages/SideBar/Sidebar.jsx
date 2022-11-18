@@ -1,8 +1,8 @@
-import './SideBar.scss';
+import styles from './SideBar.module.scss';
 
 function SideBar() {
   return (
-    <div className="SideBar">
+    <div className={styles.SideBar}>
       Tega
     </div>
   );

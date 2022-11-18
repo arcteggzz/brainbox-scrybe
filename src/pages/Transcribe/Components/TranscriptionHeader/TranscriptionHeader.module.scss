@@ -3,7 +3,7 @@
     @return #{$calculate}#{$suffix};
 }
 
-header {
+.header {
     // width: 70vw;
     display: flex;
     justify-content: space-between;
@@ -13,7 +13,7 @@ header {
     // filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
 }
 
-input {
+.searchBar {
     padding: pix-rem(12) pix-rem(60,rem) pix-rem(12) pix-rem(12);
     border: 1px #A9A9A9 solid;
     border-radius: 4px;
@@ -24,27 +24,27 @@ input {
     line-height: 24px;
 }
 
-.header-left-panel {
+.headerLeftPanel {
     display: flex;
     justify-content: space-between;
     align-items: center;
     column-gap: pix-rem(48);
 }
 
-.user-panel {
+.userPanel {
     display: flex;
     align-items: center;
     column-gap: pix-rem(12);
 }
 
-.user-image {
+.userImage {
     border: 2px #B0D1FF solid;
     width: pix-rem(48);
     height: pix-rem(48);
     border-radius: 50%;
 }
 
-.user-info {
+.userInfo {
 
     p {
         font-weight: 300;
@@ -54,7 +54,7 @@ input {
     }
 }
 
-.user-name {
+.userName {
     display: flex;
     align-items: center;
     column-gap: 10px;
@@ -71,8 +71,9 @@ input {
 }
 
 
-.upload-button {
+.uploadButton {
     display: flex;
+    align-items: center;
     background-color: #006CFF;
     padding: pix-rem(12) pix-rem(32);
     border-radius: 4px;

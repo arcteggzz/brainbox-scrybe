@@ -1,10 +1,10 @@
-import './TranscribePage.scss';
+import styles from './TranscribePage.module.scss';
 import SideBar from './SideBar/Sidebar';
 import Transcribe from './Transcribe/Transcribe';
 
 function TranscribePage() {
   return (
-    <div className="TranscribePage">
+    <div className={styles.TranscribePage}>
         <SideBar />
         <Transcribe />
     </div>
