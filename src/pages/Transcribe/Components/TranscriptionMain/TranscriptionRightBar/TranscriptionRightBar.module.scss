@@ -6,3 +6,9 @@
 .TranscriptionRightBar {
     width: 320px;
 }
+
+@media screen and (max-width: 480px) {
+    .TranscriptionRightBar {
+        left: 0;
+    }
+}

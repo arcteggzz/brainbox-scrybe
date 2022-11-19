@@ -3,4 +3,12 @@
 .Transcribe {
     width: 75vw;
     font-family: 'Kanit', sans-serif;
+    position: absolute;
+    left: 25vw;
+}
+
+@media screen and (max-width: 480px) {
+    .Transcribe {
+        left: 0;
+    }
 }

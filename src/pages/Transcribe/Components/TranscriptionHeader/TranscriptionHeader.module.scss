@@ -10,7 +10,7 @@
     padding: pix-rem(16) pix-rem(40);
     background-color: #FFFFFF;
     box-shadow: 0 8px 6px -6px rgb(0 0 0 / 0.07);
-    // filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+    filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
 }
 
 .searchBar {
@@ -84,4 +84,11 @@
     font-size: 14px;
     line-height: 24px;
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 480px) {
+    .header {
+        display: none;
+    }
 }
